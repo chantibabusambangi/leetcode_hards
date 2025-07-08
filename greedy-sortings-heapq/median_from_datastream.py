@@ -40,3 +40,4 @@ def findMedian(self) -> float:
     if(len(self.min)==len(self.max)):
         return (self.min[0]+-1*self.max[0])/2
     return self.min[0] 
+#TC: addNum:O(logn) getmedian:O(1) , O(n):space
