@@ -5,6 +5,7 @@ Return any duplicated substring that has the longest possible length. If s does 
 '''
 #idea is brute_force: checking each substring occurances>1 or not =>O(n3) 
 #binary search +rabin karp
+#for hash values i used defalutdict(list) #list of starting indices of pattern because i saw many hash collisions even the strings are different.
  def longestDupSubstring(self, s: str) -> str:
   #binary search with rabin karp
   #validate does the length 'mid' exist atleast twice
