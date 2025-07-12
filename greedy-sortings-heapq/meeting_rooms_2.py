@@ -1,4 +1,5 @@
 '''
+#prerequsite : n_meetings
 Given two arrays start[] and end[] such that start[i] is the starting time of ith meeting and end[i] is the ending time of ith meeting. Return the minimum number of rooms required to attend all meetings.
 Examples:
 Input: start[] = [1, 10, 7], end[] = [4, 15, 10]
